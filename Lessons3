@@ -1,0 +1,11 @@
+static void Main(string[] args)
+        {
+            
+            int imagesInStacks = 52 / 3; 
+            int remainingImages = 52 % 3;
+            Console.WriteLine($"Количество получившихся стопок с картинками: {imagesInStacks}," +
+                $" количество оставшихся картинок: {remainingImages}") ;
+            Console.ReadKey();
+
+
+        }
